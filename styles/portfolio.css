@@ -78,11 +78,15 @@ nav li a{
     
     
 }
+main section{
+    margin-top: 130px;
+    margin bottom: 130px;
+}
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+     margin-top: 130px;
 }
 .seconday-bg{
     background-color: #FFF8F3;
@@ -98,4 +102,42 @@ nav li a{
 }
 .item-desp{
     font-weight: 600;
+}
+.text-center{
+    text-align: center;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+     gap: 24px;
+}
+.skil{
+    background-color: #ffffff;
+   border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+    
+}
+.section-title{
+    text-align: center;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.exp-desp, .exp-sub-title{
+    color: #757575;
+
+}
+exp-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin bottom: 20px;
+}
+.resume hr{
+    margin: 30px;
+}
+.btn-primary{
+    text-align: center;
 }
